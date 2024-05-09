@@ -1,0 +1,69 @@
+.HostMessagingContainer{
+    display : flex;
+    gap : 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.MsgHostHolder{
+    margin : 0 auto;
+}
+
+.HostMessagingInfo{
+    margin-top : 10px;
+}
+
+.HostMessagingProblem,
+.HostMessagingButton,
+.HostMessagingUserName{
+    padding : 3px 3px 3px 3px;
+    border : transparent;
+    border-radius : 10px;
+    margin-bottom : 10px;
+    background-color : #4d82e2;
+    color : white;
+    outline : none;
+    font-weight : bolder;
+}
+
+.HostMessagingButton{
+    display: flex;
+    gap : 5px;
+    align-items: center;
+    justify-content: center;
+    padding : 10px 10px 10px 10px;
+    width : 100%;
+    background-color: black;
+}
+
+.HMButton{
+
+}
+
+.MessageScrollableUser,
+.MessageScrollableHost{
+    height : 430px;
+    width : 100%;
+    overflow-y: auto;
+}
+
+.MCContainer {
+    border: transparent;
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    margin : 0 auto;
+  }
+  
+  .MCInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 80%;
+    height: 10%;
+    margin : 0 auto;
+  }
+  

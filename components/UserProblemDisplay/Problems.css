@@ -1,0 +1,71 @@
+.ProblemContainers{
+    display : flex;
+    gap : 10px;
+    justify-content: center;
+    color : black;
+    flex-wrap : wrap;
+}
+
+.problem-container{
+    width : 30%;
+    height : auto;
+    background-color: #FE9E0D;
+    border-radius : 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.Problems .problem-container:hover {
+    transform: scale(1.2);
+  }
+
+  .Problems .problem-container:hover .user-info {
+    display: block;
+  }
+
+  .user-info {
+    display: none;
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+  }
+
+.Problems{
+    margin-bottom : 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.ProblemsUnderWorkHeading,
+.PendingProblemHeading{
+    text-align: left;
+    margin-left : 30px;
+}
+
+
+
+.Pending{
+
+}
+
+.problemDescription{
+    margin-left : 10px;
+    margin-right : 10px;
+    text-align: center;
+}
+
+.UserInfo,
+.problemServices,
+.problemLocation{
+    display: flex;
+    gap : 5px;
+    justify-content: center;
+    font-weight : bolder;
+}
+
+.UserInfo{
+    align-items: center;
+}

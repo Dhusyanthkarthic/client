@@ -1,0 +1,29 @@
+.benefitsContainer{
+     margin-top : 30px;
+     font-family : "poppins", sans-serif;
+    margin-bottom : 50px;
+}
+
+.benefitsheading{
+    width : 45%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.benefits{
+    width : 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 60px;
+    flex-wrap: wrap;
+}
+
+.benefit1{
+    width : 40%;
+    height : 200px;
+    border-radius: 40px;
+    padding-left: 10px;
+}

@@ -1,0 +1,16 @@
+.FooterContainer{
+    font-family: "poppins", sans-serif;
+}
+
+.FooterContainer {
+    background-color: #f6f6f6; 
+    padding: 20px; 
+    width : 100%;
+}
+
+.FooterContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}

@@ -1,0 +1,19 @@
+.FeatureContainer{
+    background-color: #FFF9F3;
+    font-family : "poppins", "sans-serif";
+    display: flex;
+    gap : 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.HHFeatureTitle{
+    font-size : 200%;
+    font-weight : 500;
+}
+
+.HHFeatureSubContent{
+    width : 500px;
+    height : auto;
+    color: #080A47;
+}

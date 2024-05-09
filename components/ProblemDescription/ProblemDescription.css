@@ -1,0 +1,43 @@
+.DescriptionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom : 200px;
+}
+
+.DesProblemDetails{
+    display: flex;
+    gap : 40px;
+    justify-content: center;
+    align-items: center;
+    border-top : solid 3px black;
+    width : 100%;
+    border-bottom : solid 3px black;
+}
+
+.ProblemImages{
+    height : auto;
+    width : auto;
+}
+
+.DesLoc{
+    background-color : #FE9E0D;
+    display : flex;
+    gap: 10px;
+    align-items: center;
+    width : auto;
+    height : 50px;
+    border-radius: 20px;
+}
+
+.DesotherDet{
+    display: flex;
+    gap : 20px;
+}
+
+.ProblemDescription{
+    width : 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+}

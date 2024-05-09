@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.SignUpContainer {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.SignUpSlogan {
+    flex: 0.6; 
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    background-color: #3A30BA;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.SignUpContent {
+    flex: 0.6; 
+    padding: 20px; 
+    text-align: center; 
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.Slogan{
+    background: linear-gradient(90deg, #FFFFFF, #FFFFFF, #FFFFFF); 
+    font-size : 50px;
+    font-weight : 700;
+    text-transform : uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.SelectType{
+    display: flex;
+    gap :  40px;
+    justify-content: center;
+    margin-bottom : 30px;
+    font-size : 40px;
+    font-weight: 500;
+}
+
+.UserDetails {
+    display: inline-block;
+    text-align: left; 
+    vertical-align: middle;
+    line-height: 2;
+    padding-left : 20px;
+}
+
+.PersonalInfo{
+
+}
+
+
+.HNGOPhotoVerificationHeading,
+.HContactDetailsHeading,
+.HostServicesHeading,
+.HostDetailsHeading,
+.UPassWord,
+.ContactDetailsHeading,
+.PersonalInfoHeading {
+    background-color: #3A30BA;
+    color: white;
+    width: 100vh;
+    font-weight: 700;
+}
+
+.Services,
+.NGOName{
+    display: flex;
+    gap : 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.UName{
+    display: flex;
+    gap : 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.DOB-Gender{
+    display: flex;
+    gap : 40px;
+    justify-content: center;
+    margin-top : 15px;
+}
+
+.HostServices,
+.Password,
+.PhoneNumber,
+.Email,
+.Address{
+    display: flex;
+    gap : 10px;
+    align-items: center;
+    margin-top : 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Email-ph{
+    display: flex;
+    gap : 20px;
+    justify-content: center;
+}
+
+
+

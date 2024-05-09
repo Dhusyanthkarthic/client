@@ -1,0 +1,25 @@
+.ProblemStatusButton{
+    display : flex;
+    gap : 7%;
+    align-items: center;
+    justify-content: center;
+    margin-top : 10px;
+}
+
+.ButtonStatus{
+    padding : 13px 13px 13px 13px;
+    background-color : #4d82e2;
+    border : transparent;
+    border-radius : 10px;
+    color : white;
+    font-size : 20px;
+}
+
+.ButtonStatus:hover{
+    background-color: white;
+    color : #4d82e2;
+    border : 1px solid #4d82e2;
+    font-weight : bolder;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}

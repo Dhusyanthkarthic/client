@@ -1,0 +1,29 @@
+.HomeHighlightContainer{
+    text-align: center;
+    font-family: "poppins", "sans-serif";
+}
+
+.HHTitle{
+    margin: 0 auto;
+    width : 70%;
+    height : auto;
+    line-height : 0.9;
+}
+
+.HomeHighlightTitle{
+    font-size : 70px;
+    font-weight : 600;
+}
+
+.HHSubtitle{
+    margin : 0 auto;
+    width : 43%;
+    height : auto;
+    font-weight : 300;
+}
+
+.HHButtonContainer{
+    justify-content: center;
+    display: flex;
+    gap : 40px;
+}

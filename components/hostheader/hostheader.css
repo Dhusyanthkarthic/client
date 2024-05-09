@@ -1,0 +1,28 @@
+.HostHeaderContainer{
+    display: flex;
+    gap : 40px;
+    font-family: 'poppins','sans-serif';
+    align-items: center;
+}
+
+.HostHeaderTitle{
+    margin-left: 50px;
+}
+
+.HostHeaderNavigator{
+    display: flex;
+    gap : 40px;
+    font-size : 120%;
+}
+
+.HostHeaderName{
+    margin-left: 400px;
+    font-size : 120%;
+}
+
+.HostDocumentation{
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border-radius : 20px;
+    font-size : 110%;
+}
